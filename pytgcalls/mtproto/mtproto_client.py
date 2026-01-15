@@ -25,7 +25,7 @@ class MtProtoClient:
                 cache_duration,
                 client,
             )
-        elif self.package_name == 'telethon':
+        elif self.package_name == 'heroku':
             from .telethon_client import TelethonClient
             self._bind_client = TelethonClient(
                 cache_duration,
